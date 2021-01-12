@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="contactformulier">
+            <meta name="author" content="Ganesh">
+            <title>Plaats recept</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+        </head>
+        <body>
+            <header><div class="border"><h1><b>Plaats jouw recept</b></h1></div></header>
+            <main>
+            <br><br><div class="centertext3"><h1>Plaats jouw recept op onze website</h1></div> 
+            <form action="/action_page2.php" name="contact" method="POST" data-netlify="true">
+                <div class="form">
+                <label for="Vnaam">Voornaam:</label><br><br>
+                <input type="text" id="Vnaam" name="Vnaam"><br><br>
+                <label for="Anaam">Achternaam:</label><br><br>
+                <input type="text" id="Anaam" name="Anaam"><br><br>
+                <label for="email">E-mailadres:</label><br><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Telefoonnummer:</label><br><br>
+                <input type="tel" id="phone"><br><br>
+                <label for="age">Leeftijd:</label><br><br>
+                <input type="number" id="age" name="age" min="1" max="100"><br><br>
+                <label for="Geslacht">Geslacht:</label><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Man</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Vrouw</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Anders</label><br><br>
+                <label for="favkeuken">Favoriete keuken:</label><br><br>
+                <input type="checkbox" id="keuken1" name="keuken1" value="Italiaans">
+                <label for="keuken1">Italiaans</label>
+                <input type="checkbox" id="keuken2" name="keuken2" value="Frans">
+                <label for="keuken2">Frans</label>
+                <input type="checkbox" id="keuken3" name="keuken3" value="Arabisch">
+                <label for="keuken3">Arabisch</label>
+                <input type="checkbox" id="keuken4" name="keuken4" value="keuken4">
+                <label for="keuken4">Spaans:</label><br><br>
+                <label for="favcolor">Selecteer favoriete keukenschort kleur:</label><br><br>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+                <label for="tekst">Biografie:<br></label><br>
+                <textarea rows="10" cols="22"></textarea><br><br>
+                <label for="myfile">Upload jouw laatste recept:</label><br><br>
+                <input type="file" id="myfile" name="myfile"><br><br>
+                <label for="homepage">Url naar jouw recepten website:</label><br><br>
+                <input type="url" id="homepage" name="homepage"><br><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+                </div></form>
+
+            </main>
+            <footer>
+                <br>
+                <nav><p><div class="centertext3"><a href="index.html">Home</a></div></p>
+                </nav></footer>
+            
+
+        </body>
+ </html>
